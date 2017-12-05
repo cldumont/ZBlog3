@@ -1,0 +1,10 @@
+
+CREATE TABLE `user` 
+(
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `username` VARCHAR(40) NOT NULL,
+    `password` VARCHAR(40) NOT NULL,
+    `admin` TINYINT(1) NOT NULL,
+PRIMARY KEY (`id`) 
+);
+insert into user values(null,'admin','password','1');
